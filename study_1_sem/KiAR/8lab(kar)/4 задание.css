@@ -1,0 +1,54 @@
+body{background-color: rgb(247, 229, 126);}
+
+.nav li a
+{
+    background: url(facultet.png) no-repeat 0 0;
+}
+
+.nav .it a:hover{background-position: 0 -30px;}
+.nav .pim a:hover{background-position: 0 -90px;}
+.nav .xtit a:hover{background-position: 0 -60px;}
+
+.nav ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+nav>ul>li {
+    position: relative;
+    width: 180px;
+}
+.nav li{
+    display: inline;
+}
+.nav li a {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 8px;
+    text-decoration: none;
+    width: 180px;
+    height: 14px;
+    color: black;
+}
+.nav li .dropped {
+
+    visibility: hidden;
+    position: absolute;
+}
+nav li:hover .dropped
+{
+    visibility: visible;
+}
+.nav li .dropped a{
+    text-align: center;
+    display: block;
+    width: 180px;
+    text-align: center;
+    color: black;
+    background: none;
+}
+.dropped{
+    display: block;
+    right: 4px;
+}

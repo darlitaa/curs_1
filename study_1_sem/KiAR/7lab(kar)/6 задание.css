@@ -1,0 +1,61 @@
+img{width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: block
+}
+@keyframes around1 {
+    0% { left: 0; top: 0; }
+    100% {left: 200px; top: 0;
+        }
+}
+.cat1{
+    position: relative;
+    animation: around1 2s linear infinite;
+}
+@keyframes around2 {
+    from { left: 0; top: 0; }
+    to {left: 400px; top: 0;
+        border-radius: 40px;
+        }
+    }
+.cat2{
+    position: relative;
+    animation: around2 2s linear infinite alternate;
+}
+@keyframes around3 {
+    0%{ left: 0; top: 0; }
+    50% {left: 1500px; top: 0;}
+    100% {right: 0; top: 0;}
+    }
+.cat3{
+    position: relative;
+    animation: around3 4s linear infinite;
+}
+@keyframes around4 {
+    from { left: 0; top: 0; }
+    to {left: 0; top: 200px;}
+}
+.cat4{
+    position: relative;
+    animation: around4 2s linear infinite;
+    margin-bottom: 205px;
+}
+@keyframes around5 {
+    0% { left: 0; top: 0; }
+    25% { left: 200px; top: 0; }
+    50% { left: 200px; top: 200px; }
+    75% { left: 0; top: 200px; }
+    100% { left: 0; top: 0; }
+}
+.cat5{
+    position: relative;
+    animation: around5 4s linear infinite;
+    margin-bottom: 205px;
+}
+@keyframes ex{
+    from{opacity: 0;}
+    to {opacity: 0.8;}
+}
+h1{
+    animation: ex 2s linear infinite alternate;
+}

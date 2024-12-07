@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="2 задание.xsl"?>
+
+<accreditation>
+    <student_list>Sudents List</student_list>
+   <student rollno = "1">
+      <name>Кирилл</name> 
+      <kyar>2</kyar>
+      <oaip>10</oaip>
+      <opi>5</opi>
+   </student> 
+   <student rollno = "2"> 
+      <name>Лиана</name>
+      <kyar>10</kyar>
+      <oaip>6</oaip>
+      <opi>2</opi>
+   </student> 
+   <student rollno = "3"> 
+      <name>Ксения</name> 
+      <kyar>8</kyar>
+      <oaip>1</oaip>
+      <opi>9</opi>
+   </student>
+   <student rollno = "4"> 
+      <name>Владислав</name> 
+      <kyar>2</kyar>
+      <oaip>2</oaip>
+      <opi>3</opi> 
+   </student>
+   <student rollno = "5"> 
+      <name>Николай</name> 
+      <kyar>7</kyar>
+      <oaip>6</oaip>
+      <opi>10</opi>
+   </student>
+    <student rollno = "6"> 
+      <name>Ольга</name> 
+      <kyar>10</kyar>
+      <oaip>10</oaip>
+      <opi>10</opi>
+   </student>
+</accreditation>

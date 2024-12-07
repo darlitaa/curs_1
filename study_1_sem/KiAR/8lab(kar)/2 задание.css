@@ -1,0 +1,16 @@
+ul.nav li{
+    display: inline;
+    margin-right: -4px;
+}
+
+ul.nav a{
+    display: inline-block;
+    background-color: yellow;
+    color: green;
+    border: 2px solid green;
+    text-decoration: none;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}

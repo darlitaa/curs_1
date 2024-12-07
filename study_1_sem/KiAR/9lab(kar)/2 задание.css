@@ -1,0 +1,34 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 22%);
+    grid-gap: 20px;
+    height: 100vh;
+    background-color: bisque;
+}
+.cell9{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.cell10{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+img{
+    height: 80%;
+    width: 100%;
+}
+.gif{
+    height: 100%;
+    width: 100%;
+}
+.pict{
+    height: 75%;
+    width: 100%; 
+}
+figcaption{
+    text-align: center;
+}
+div{
+    border: 2px solid black;
+}

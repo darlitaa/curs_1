@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Градиент</title>
+  <style>
+div{width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px 10px 10px;}
+
+.gr1{background-image: linear-gradient(to bottom, red, blue);}
+.gr2{background-image: repeating-linear-gradient(45deg, rgb(153, 0, 127),rgb(153, 0, 127) 10px, blue 10px, blue 20px);}
+.gr3{background-image: radial-gradient(circle at 50% 50%, yellow, green);}
+.gr4{background-image: repeating-radial-gradient(circle at 50% 50%, green, green 5px, yellow 5px, yellow 10px);}
+.gr5{background-image: radial-gradient(circle at 50% 50%, yellow , green, transparent), 
+            linear-gradient(to bottom, red, blue);}
+.gr6{background-image: linear-gradient(to right, yellow, green, transparent), 
+            linear-gradient(to top, magenta,blue 20px,white, white 50px,  black)}
+            
+  </style>
+ </head>
+ <body>
+  <div class="gr1"></div>
+  <div class="gr2"></div>
+  <div class="gr3"></div>
+  <div class="gr4"></div>
+  <div class="gr5"></div>
+  <div class="gr6"></div>
+</html>
+

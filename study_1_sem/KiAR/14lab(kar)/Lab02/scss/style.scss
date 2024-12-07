@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    h1{
+        color:purple;
+        font-family: "Monotype Corsiva";
+    }
+    h2{
+        @extend h1;
+    }
+    h3{
+        @extend h1;
+    }
+    .podpuncti1{
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18pt;
+    }
+    .podpuncti2{
+        color: yellow;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20pt;
+    }
+    .podpuncti3{
+        color: green;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22pt;
+    }
+    table{
+        border-collapse: collapse;
+        border: 2px solid gray;
+        background-color: #d2b48c;
+    }
+    th{
+        @extend table;
+    }
+    td{
+        @extend table;
+    }
+    tr{
+        @extend table;
+    };
+}

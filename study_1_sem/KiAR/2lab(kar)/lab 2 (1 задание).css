@@ -1,0 +1,19 @@
+h1, h2, h3 {
+    color:#962596;
+    font-family:'Monotype Corsiva';
+}
+.s1 {
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: 18px
+   }
+.s2 {
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20px
+   }
+.s3 {
+    color: green;
+    font-family: 'Times New Roman';
+    font-size: 22px
+   }

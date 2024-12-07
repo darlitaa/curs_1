@@ -1,0 +1,20 @@
+@import "_header";
+@import "_main";
+@import "_aside";
+@import "_footer";
+
+
+$backgr: rgb(208, 196, 255);
+
+div{
+    margin: 10px;
+    background-color: $backgr;
+    padding-top: 10px;
+}
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+h3{
+    text-align: center;
+}

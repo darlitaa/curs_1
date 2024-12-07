@@ -1,0 +1,29 @@
+﻿Сборка начата 21.02.2024 18:39:47.
+Уровень детализации журнала: Normal.     1>Проект "D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\lab_1_linear\lab_1_linear.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\lab_1_linear.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\lab_1_linear.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt lab_1_linear.cpp
+         lab_1_linear.cpp
+     1>D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\lab_1_linear\lab_1_linear.cpp(21,20): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\x64\Debug\lab_1_linear.exe" /INCREMENTAL /ILK:"x64\Debug\lab_1_linear.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\x64\Debug\lab_1_linear.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\x64\Debug\lab_1_linear.lib" /MACHINE:X64 x64\Debug\lab_1_linear.obj
+         lab_1_linear.vcxproj -> D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\x64\Debug\lab_1_linear.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\study(2sem)\AiCD\lab\lab_1_linear\lab_1_linear\lab_1_linear.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\lab_1_linear.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\lab_1_linear.tlog\lab_1_linear.lastbuildstate".
+     1>Сборка проекта "D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\lab_1_linear\lab_1_linear.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\lab_1_linear\lab_1_linear.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\study(2sem)\AiCD\lab\lab1\lab_1_linear\lab_1_linear\lab_1_linear.cpp(21,20): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.78

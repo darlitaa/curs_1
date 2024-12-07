@@ -1,0 +1,94 @@
+img{width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+@keyframes around4 {
+    0% { right:510px; top: 0; }
+    50% { right:340px; top: 0;
+        transform:
+        rotateY(0deg);}
+    100% {right: 0; top: 200px;
+        transform:
+              perspective(1000px)
+              rotateY(0deg);
+        filter: invert(1);
+        }
+    }
+    .cat4{
+        transform-origin: 50% 50%;
+        transform:
+        perspective(700px)
+        rotateY(35deg);
+        z-index: 4;
+        position: relative;
+        animation: around4 4s infinite;
+    }
+@keyframes around3 {
+    0% { right: 340px; top: 0; }
+    50% {right:170px; top: 0;
+            transform:
+            rotateY(0deg);}
+    100% {right: 0; top: 200px;
+            transform:
+            perspective(1000px)
+            rotateY(0deg);
+            filter: grayscale(1);}
+            }
+.cat3{
+        transform-origin: 50% 50%;
+        transform:
+        perspective(700px)
+        rotateY(35deg);
+        z-index: 4;
+        position: relative;
+        animation: around3 4s infinite;
+        animation-fill-mode: forwards;
+    }
+@keyframes around2 {
+    0% { right: 170px; top: 0; }
+    50% {right:0; top: 0;
+            transform:
+            rotateY(0deg);}
+    100% {right: 0; top: 200px;
+            transform:
+            perspective(1000px)
+            rotateY(0deg);
+            filter: blur(10px);}
+        }
+.cat2{
+        transform-origin: 50% 50%;
+        transform:
+        rotateY(35deg);
+        z-index: 4;
+        position: relative;
+        animation: around2 4s infinite;
+        animation-fill-mode: forwards;
+    }
+@keyframes around1 {
+    0% { left: 0; top: 0; }
+    50% {left:170px; top: 0;
+            transform:
+            perspective(1000px)
+            rotateY(0deg);}
+    100% {left: 0; top: 200px;
+            transform:
+            perspective(1000px)
+            rotateY(0deg);}
+        }
+.cat1{
+        transform-origin: 50% 50%;
+        transform:
+        perspective(700px)
+        rotateY(35deg);
+        z-index: 4;
+        position: relative; 
+        animation: around1 4s infinite;
+        animation-fill-mode: forwards;
+}
+@keyframes ex{
+    from{opacity: 0;}
+    to {opacity: 0.8;}
+}
+h1{
+    animation: ex 2s linear infinite alternate;
+}

@@ -1,0 +1,17 @@
+.grid{
+    display: grid;
+    grid-template-columns: 7% 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    height: 100vh;
+    background-color: bisque;
+}
+div {
+    border: 2px solid black;
+}
+.title{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 50px;
+}
+    

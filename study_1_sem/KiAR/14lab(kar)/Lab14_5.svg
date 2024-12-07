@@ -1,0 +1,33 @@
+<svg versiob="1.1" widt="1280" height="724"
+    viewBOx="0 0 1280 1024"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www/w3.org/2001/xml-events">
+
+    <circle cx="200" cy="220" r="50" stroke="aqua" stroke-width="5" fill="blue">
+    <animate attributeName="stroke" from="aqua" to="pink" dur="2s" begin="mouseover" fill="freeze"/>
+    </circle>
+
+    <rect x="270" y="170" width="160" height="100" stroke="indigo" stroke-width="5" fill="red">
+      <animate attributeName="stroke" from="indigo" to="bisque" dur="3s" fill="freeze"/>
+    </rect>
+    
+    <ellipse cx="550" cy="220" rx="100" ry="50" fill="green">
+        <animate attributeName="fill" from="green" to="purple" dur="3s" begin="click" fill="freeze"/>
+    </ellipse>
+
+  <defs>
+    <linearGradient id="linear-gradient" x1="0" y1="0" x2="0" y2="100%" >
+            <stop offset="0" stop-color="yellow">
+            <animate attributeName="stop-color" values="yellow;green" dur="5s" fill="freeze"/></stop>
+            <stop offset="1" stop-color="yellow">
+                <animate attributeName="stop-color" values="yellow;orange" dur="5s" fill="freeze"/> 
+            </stop>
+        </linearGradient>
+  </defs>
+  
+    <polygon points="700,200 640,300 760,300" fill="url(#linear-gradient)"/>
+    <polyline points="155,300, 480,300 400,340 770,340" stroke="purple" stroke-width="3" fill="none"/>
+
+</svg>

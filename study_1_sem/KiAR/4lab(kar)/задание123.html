@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Блочная модель</title>
+
+        <style>
+            .R {
+                border: 6px outset rgba(214, 25, 25, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .G {
+                border: 6px dashed rgba(33, 200, 11, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .B {
+                border: 6px dotted rgba(11, 24, 200, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .C {
+                border: 6px double rgba(11, 181, 200, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .M {
+                border: 6px groove rgba(190, 11, 200, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .Y {
+                border: 6px inset rgba(228, 206, 42, 0.933); 
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .K {
+                border: 6px solid rgba(0, 0, 0, 0.933);
+                padding: 10px;
+                margin-top: 10px;
+            }
+            div {
+                display: inline-block;
+            }
+            span {
+                display: inline-block;
+                padding: 5px;
+                margin: 5px;
+                background: #FFA500;
+                border: 5px solid #FF4500;
+            }
+            .p1 {
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 5px solid #FF7F50;   
+            }
+            .p2 {
+                border: 5px solid #d31818;
+                border-radius: 20px/40px;
+                box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+                overflow: auto;
+            }
+            .p3 {
+                border: 5px solid #FF6347;
+            }
+
+        </style>
+      </head>
+
+      <body>
+    <div class="R">
+       <p>R</p> 
+    </div>
+
+    <div class="G">
+       <p>G</p> 
+    </div>
+
+    <div class="B">
+        <p>B</p>
+    </div>
+
+    <div class="C">
+        <p>C</p>
+    </div>
+
+    <div class="M">
+        <p>M</p>
+    </div>
+
+    <div class="Y">
+        <p>Y</p>
+    </div>
+
+    <div class="K">
+        <p>K</p>
+    </div>
+
+    <p class="p1"> <span>content-box</span> добавляет ширину границ и значения отступов к
+        значениям, установленным для свойств ширины и высоты;</p>
+
+    <p class="p2"> <span> padding-box</span> сообщает браузеру, что значения свойства
+        ширины или высоты должны включают в себя отступы padding,
+        как часть своего значения, но не margin и border;
+        </p>
+
+    <p class="p3"> <span>border-box</span> включает в значения свойства width и height
+        значения отступов и границ, но не margin. Это значение можно
+        использовать для универсального селектора.
+        </p>
+    
+    </body>
+</html>

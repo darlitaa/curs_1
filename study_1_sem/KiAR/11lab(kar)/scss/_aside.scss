@@ -1,0 +1,74 @@
+.aside {
+    background-color: rgba(132, 241, 204, 0.515);
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 1 22%;
+}
+
+@mixin input {
+    background: rgba(255,255,255,.5);
+    color: rgb(4, 0, 0);
+    box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+}
+input[type="text" ]{
+    @include input;
+    & :focus {
+        color: black;
+        background: rgb(99, 85, 85);
+    }
+}
+input[type="email" ]{
+    @include input;
+}
+
+button[type="submit" ]{
+    background: rgb(172, 90, 171);
+    box-shadow: 0 0 4px white;
+    color: white;
+}
+
+%color {
+    color: rgb(60, 38, 167);
+}
+form{
+    & p{
+        @extend %color;
+        
+    }
+    & h3{
+        @extend %color;
+    }
+}
+
+$hsize: 27px;
+@function p_size($number){
+    @if($number == 1){
+        @return $hsize - 5px;
+    }
+    @else{
+        @return $hsize - 14px;
+    }
+}
+
+h3{
+    font-size: p_size(1);
+}
+
+.pingvin{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -10px;
+    & img{
+        height: 100px;
+        display: flex;
+        padding-top: 30px;
+        flex: 0 1 20%;
+        margin-right: 4px;
+    }
+    & p{
+        flex: 1 1 70%;
+        font-size: p_size(2);
+    }
+}

@@ -1,0 +1,26 @@
+books{
+    background-color: rgb(201, 255, 196);
+}
+book{
+    display: block;
+    width: 600px;
+    margin-top: 20px;
+}
+name{
+    display: block;
+    background-color: cornsilk;
+    width: 600px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+author{
+    display: block;
+    width: 600px;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}

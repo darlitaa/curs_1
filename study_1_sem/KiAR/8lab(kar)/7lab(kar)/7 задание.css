@@ -1,0 +1,8 @@
+@keyframes col{
+    from{color:red;}
+    to {color:rgb(119, 0, 255);}
+}
+.text{height: 300px;
+    width: 300px;
+    animation: col 5s linear infinite alternate;
+}

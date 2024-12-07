@@ -1,0 +1,34 @@
+﻿Сборка начата 22.03.2024 14:54:35.
+Уровень детализации журнала: Normal.     1>Проект "D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\lab_1and3_manyFile\lab_1and3_manyFile.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\lab_1and.97ee82fe.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\lab_1and.97ee82fe.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt checkIfCorrect.cpp countTheEventData.cpp getBirthdayNumber.cpp getNumber.cpp lab_1and3_manyFile.cpp nameMonth.cpp stdafx.cpp
+         checkIfCorrect.cpp
+         countTheEventData.cpp
+         getBirthdayNumber.cpp
+         getNumber.cpp
+         lab_1and3_manyFile.cpp
+         nameMonth.cpp
+         stdafx.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\Debug\lab_1and3_manyFile.exe" /INCREMENTAL /ILK:"Debug\lab_1and3_manyFile.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\Debug\lab_1and3_manyFile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\Debug\lab_1and3_manyFile.lib" /MACHINE:X86 Debug\checkIfCorrect.obj
+         Debug\countTheEventData.obj
+         Debug\getBirthdayNumber.obj
+         Debug\getNumber.obj
+         Debug\lab_1and3_manyFile.obj
+         Debug\nameMonth.obj
+         Debug\stdafx.obj
+         lab_1and3_manyFile.vcxproj -> D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\Debug\lab_1and3_manyFile.exe
+       FinalizeBuildStatus:
+         Файл "Debug\lab_1and.97ee82fe.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\lab_1and.97ee82fe.tlog\lab_1and3_manyFile.lastbuildstate".
+     1>Сборка проекта "D:\study(2sem)\KPO\lab\lab1_3\lab_1and3_manyFile\lab_1and3_manyFile\lab_1and3_manyFile.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:04.47

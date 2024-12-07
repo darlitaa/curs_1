@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Чай</title>
+        <style>
+            body{
+                background-color: bisque;
+            }
+            figure{
+                display:inline-block;
+            }
+            figcaption{
+                text-align: center;
+                color: rgb(69, 51, 23);
+            }
+            img{
+                width: 220px;
+                height: 140px;
+                border-radius: 10px;
+            }
+
+            .userInfo {
+                width: 200px;
+                margin-right: 15px;
+            }
+            .userInput {
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+            }
+            section {
+                display: flex;
+                padding-bottom: 15px;
+            }
+            footer{
+                font-size: 20px;
+                padding-left: 5%;
+                background-color: rgba(212, 195, 175, 0.527);
+                margin: 20px;
+                padding: 40px;
+            }
+            form{
+                margin-left: 33%;
+                margin-top: 40px;
+                width: fit-content;
+                padding: 15px;
+                background-color: rgba(212, 195, 175, 0.527);
+                border-radius: 30px;
+            }
+            #butt, #butt1{
+                margin: 5px;
+                padding: 4px;
+                border-radius: 5px;
+                background-color: rgba(235, 234, 232, 0.527);
+                border: 0px solid rgba(73, 55, 36, 0.392);
+            }
+        </style>
+    <head>
+        <body>
+            <figure id="img1">
+                    <img src = "1.jpg"/>
+                    <figcaption id="text">Чёрный чай</figcaption>
+            </figure>
+             <figure id="img2">
+                    <img src = "2.jpg"/>
+                    <figcaption>Зелёный чай</figcaption>
+            </figure>
+             <figure id="img3">
+                    <img src = "3.jpg"/>
+                    <figcaption>Красный чай</figcaption>
+            </figure>
+             <figure id="img4">
+                    <img src = "4.jpg"/>
+                    <figcaption>Матча</figcaption>
+            </figure>
+
+        <form>
+                <h1>Регистрация постоянного клиента</h1>
+                <section>
+                    <label for="fam" class="userInfo">Фамилия:</label>
+                    <input type="text" placeholder="Обязательно заполнить" class="userInput" id="fam">
+                </section>
+                <section>
+                    <label for="im" class="userInfo">Имя:</label>
+                    <input type="text" placeholder="Обязательно заполнить" class="userInput" id="im">
+                </section>
+                <section>
+                    <label for="str" class="userInfo">Страна проживания:</label>
+                    <input type="text" class="userInput" id="str">
+                </section>
+                <section>
+                    <label for="pol" class="userInfo">Пол:</label>
+                    <div id="pol">
+                        <label style="font-size: 0.9em;"><input type="checkbox" id="check1" class="checkbox" value="Мужской">Мужской</label>
+                        <label style="font-size: 0.9em;"><input type="checkbox" id="check2" class="checkbox" value="Женский">Женский</label>
+                    </div>
+                </section>
+                <section>
+                    <label><input type="button" id="butt"  value="Заказать"></label>
+                    <label><input type="reset" id="butt1" value="Сброс"></label>
+                </section>
+        </form>
+        <footer id="footer"></footer>
+
+            <script>
+                const img = document.querySelectorAll('img');
+
+                let text = document.querySelector('#text');
+
+                text.style.opacity=0;
+
+                img[0].addEventListener(
+                    'mouseover',
+                    function(){
+                        text.style.opacity=1;
+                    }
+                )
+                img[1].addEventListener(
+                    'click',
+                    function(){
+                        img[1].style.border="10px solid red";
+                    }
+                )
+                img[2].addEventListener(
+                    'mouseover',
+                    function(){
+                        img[2].src = 'rad.jpg';
+                    }
+                )
+                img[2].addEventListener(
+                    'mouseout',
+                    function(){
+                        img[2].src = '3.jpg';
+                    }
+                )
+                document.getElementById("butt").addEventListener(
+                    'click',
+                    function(){
+                    let val = document.getElementById('fam').value;
+                    let val1 = document.getElementById('im').value;
+                    let val2 = document.getElementById('str').value;
+                    let check = document.querySelectorAll('.checkbox');
+
+                    for(let i=0; i<check.length; i++)
+                    {
+                        if(check[i].checked)
+                        {
+                            let checkkk = check[i].value;
+                            document.getElementById('footer').innerHTML="Фамилия: "+val+";   Имя: "+val1+";   Страна проживания: "+val2+";   Пол: "+checkkk;
+                        }
+                    }
+                })   
+            </script>
+        </body>
+</html>

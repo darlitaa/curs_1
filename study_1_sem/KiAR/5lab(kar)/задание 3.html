@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <style>
+          form{
+            background: indigo;
+            width: 600px;
+            color: white;
+            font-size:  1.2em;
+          }
+          input[type="text" ]{
+            background: rgba(255,255,255,.5);
+            color: rgba(255,255,255,1);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+          } 
+          input[type="email" ]{
+            background: rgba(255,255,255,.5);
+            color: rgba(255,255,255,1);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+          }
+          button[type="submit" ]{
+            background: navy;
+            box-shadow: 0 0 4px white;
+            color: wheat;
+           }
+           input[type="text" ]:focus{
+            color: black;
+            background: rgb(99, 85, 85);
+           }
+        </style>
+      </head>
+      
+      <body>
+        <form>
+          <p style="font-size: 30px; ">Регистрация постоянного клиента</p>
+          <table>
+
+          <tr>
+            <td><p>Фамилия:</p></td>
+            <td><input type="text" class="label"></td>
+        </tr>
+
+          <tr>
+           <td><p>Имя:</p></td>
+           <td><input type="text" class="label"></td>
+        </tr>
+     
+         <tr>
+           <td><p>Отчество:</p></td>
+           <td><input type="text" class="label"></td>
+       </tr>
+            
+          <tr>
+            <td><p>Ваш возраст:</p></td>
+            <td><input type="text" class="label"></td>
+         </tr>
+
+         <tr>
+          <td><p>Пол:</p></td>
+          <td><input type="checkbox" class="label"> мужской
+              <input type="checkbox" class="label"> женский</td>
+      </tr>
+
+        <tr>
+         <td><p>Email:</p></td>
+         <td><input type="email" class="label"></td>
+      </tr>
+   
+       <tr>
+         <td><p>Страна проживания:</p></td>
+         <td> <input type="text" class="label"></td>
+     </tr>
+          
+        <tr>
+          <td><p>Откуда вы узнали о нас?</p></td>
+          <td><select class="label">
+            <option>Выберите вариант</option>
+            <option>1</option> 
+            <option>2</option> 
+            <option>3</option> 
+          </select></td>
+       </tr>
+       
+       <tr>
+        <td><p>Дата заполнения</p></td>
+        <td><input type="date" class="label"></td>
+    </tr>
+          </table>
+
+          <p style="text-align: center;">
+            <button type="submit" class="lab">Регистрация</button>
+            <button type="submit" class="lab">Отмена</button>
+          </p>
+
+        </form>
+      </body>
+</html>

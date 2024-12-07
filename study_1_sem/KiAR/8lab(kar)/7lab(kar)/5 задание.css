@@ -1,0 +1,70 @@
+img{width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 2px solid red;
+}
+@keyframes around1 {
+    0% {opacity: 1;}
+    20% {opacity: 0;}
+    45% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+    }
+.cat1{
+    position: relative;
+    animation: around1 5s infinite step-end;
+    }
+@keyframes around2 {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    45% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+        }
+.cat2{
+    position: relative;
+    right:214px;
+    animation: around2 5s infinite step-end;
+    }
+@keyframes around3 {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    45% {opacity: 1;}
+    75% {opacity: 0;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+        }
+.cat3{
+    position: relative;
+    right:428px;
+    animation: around3 5s infinite step-end;
+    }
+@keyframes around4 {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    45% {opacity: 0;}
+    75% {opacity: 1;}
+    90% {opacity: 0;}
+    100% {opacity: 0;}
+        }
+.cat4{
+    position: relative;
+    right:642px;
+    animation: around4 5s infinite step-end;
+    }
+@keyframes around5 {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    45% {opacity: 0;}
+    75% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity: 0;}
+        }
+
+.cat5{
+    position: relative;
+    right:856px;
+    animation: around5 5s infinite step-end;
+     }
